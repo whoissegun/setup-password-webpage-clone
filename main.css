@@ -1,0 +1,120 @@
+body{
+    background-color: #F6F8FA;
+}
+.navbar{
+    background-color: #272727;
+    width: 100%;
+    margin-left: 0px;
+    padding: 20px;
+
+}
+.nav-items{
+    display: inline;
+    font-family: Arial Rounded MT Bold;
+    color: white;
+    margin-right: 30px;
+}
+#english{
+    margin-left: 480px;
+}
+#english::before{
+    content: "";
+    display: inline-block;
+    
+    width: 20px;
+    height: 20px;
+    background: url('https://friconix.com/png/fi-snsuhx-user-lock.png') 0 0 no-repeat;
+    background-size: contain;
+    white-space: pre;
+    
+    padding-right: 10px;
+    padding-left: 5px;
+}
+.logo{
+    display: inline;
+    margin-right: 10px;
+}
+.header{
+    margin-left: 120px;
+}
+.heading{
+    font-family: Verdana;
+    font-weight: 100;
+    font-size: 25px;
+    margin-top: 25px;
+}
+.subheading{
+    font-family: Verdana;
+    opacity: 0.5;
+}
+.form{
+    border-radius: 10px;
+    background-color: white;
+    padding-left: 20px;
+    width: 80%;
+    margin:auto;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.form-header{
+    font-family: Verdana;
+    font-weight: 100;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.input-name{
+    font-family: Verdana;
+    font-weight: 100;
+    font-size: 15px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    
+}
+input{
+    margin-top: 0px;
+    padding-top: 0px;
+    width: 400px;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 5px;
+
+}
+#verification{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 354px;
+}
+#send{
+    border-radius: 5px;
+    border: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    height: 30px;
+    font-family: Verdana;
+    font-size: 14px;
+    background-color: #00C0AB;
+    color: white;
+    padding-bottom: 27px;
+    padding-top: 6px;
+
+}
+.submit{
+    background-color: #00E4EA;
+    border-radius: 10px;
+    font-family: Verdana;
+    border: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 130px;
+    padding-right: 130px;
+    margin-top: 20px;
+    
+}
+.link{
+    color: #00E4EA;
+    text-decoration: none;
+    margin-top: 20px;
+    font-family: Verdana;
+    font-size: 14px;
+}
